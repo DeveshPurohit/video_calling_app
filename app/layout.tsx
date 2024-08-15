@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "XOOM",
-  description: "Video calling app",
+  description: "Video calling app by Devesh Purohit",
   // icons: {
   //   icon: Logo
   // }
