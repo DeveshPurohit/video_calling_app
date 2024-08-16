@@ -13,9 +13,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "XOOM",
   description: "Video calling app by Devesh Purohit",
-  // icons: {
-  //   icon: Logo
-  // }
+  icons: {
+    icon: "/icons/logo.jpg"
+  }
 };
 
 export default function RootLayout({
@@ -34,7 +34,7 @@ export default function RootLayout({
           colorInputText: "#fff",
         },
         layout: {
-          logoImageUrl: "/icons/yoom-logo.svg"
+          logoImageUrl: "/icons/logo.jpg"
         }
       }}>
         <body className={`${inter.className} bg-dark-2`}>{children}<Toaster /></body>

@@ -25,7 +25,7 @@ const MobileNav = () => {
         </SheetTrigger>
         <SheetContent className="bg-dark-1 border-none">
         <Link href={'/'} className="flex gap-1 items-center">
-        <Image src={'/icons/logo.svg'} alt="Xoom logo" height={32} width={32} className="max-sm:size-10"/>
+        <Image src={'/icons/logo.jpg'} alt="Xoom logo" height={32} width={32} className="max-sm:size-10"/>
         <p className="text-[26px] text-white font-extrabold ">Xoom</p>
       </Link>
       <div className="flex flex-col h-[calc(100vh-72px)] justify-between overflow-y-auto">
